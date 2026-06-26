@@ -8,7 +8,7 @@ export default function LandingPage() {
       <header className="p-6 flex justify-between items-center max-w-6xl mx-auto">
         <h1 className="text-2xl font-black tracking-tighter">AI Platform</h1>
         <nav>
-          <img src="/logo.svg" alt="AI Platform Logo" className="w-10 h-10" />
+          <img src="/globe.svg" alt="AI Platform Logo" className="w-10 h-10" />
         </nav>
       </header>
 
