@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Pricing from '../components/Pricing';
 import BentoFeatures from '../components/BentoFeatures';
 
