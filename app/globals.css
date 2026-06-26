@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@tailwind components;
-@tailwind utilities;
 
 :root {
   /* Micro-interactions: 150ms - 200ms using an ease-out curve [cite: 26] */
