@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Micro-interactions: 150ms - 200ms using an ease-out curve [cite: 26] */
+  --motion-micro: 175ms ease-out; 
+  
+  /* Structural Layout Reflows: 300ms - 400ms using an ease-in-out curve [cite: 27] */
+  --motion-structural: 350ms ease-in-out; 
+  
+  /* Make sure to add your colors from asset_package.zip here [cite: 7, 36] */
+}
+
+.hover-micro {
+  transition: all var(--motion-micro);
+}
+
+.layout-transition {
+  transition: all var(--motion-structural);
+}
+
+/* Accordion Native Fallbacks */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
